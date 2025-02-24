@@ -141,7 +141,6 @@ export const Thread = ({ messageId, onClose }: ThreadProps) => {
                 </div>
                 <div className="flex flex-col gap-y-2 h-full items-center justify-center">
                     <Loader size-5 animate-spin text-muted-foreground />
-                    <p className="text-sm text-muted-foreground">Message not found</p>
                 </div>
             </div>
         )
@@ -211,6 +210,7 @@ export const Thread = ({ messageId, onClose }: ThreadProps) => {
                                     hideThreadButton
                                     threadCount={message.threadCount}
                                     threadImage={message.threadImage}
+                                    threadName={message.threadName}
                                     threadTimestamp={message.threadTimestamp}
                                 />
                             )
