@@ -38,7 +38,7 @@ const WorkspaceIdLayout = ({ children }: WorkspaceIdLayoutProps) => {
                 >
                     <ResizablePanel
                         defaultSize={20}
-                        minSize={11} className="bg-[#ADD8E6]">
+                        minSize={11} className="bg-[#765341]">
                         <WorkspaceSidebar />
                     </ResizablePanel>
                     <ResizableHandle withHandle />
