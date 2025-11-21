@@ -28,7 +28,7 @@ export const WorkspaceSidebar = () => {
 
     if (workspaceLoading || memberLoading) {
         return (
-            <div className="flex flex-col bg-[#808080] h-full items-center justify-center">
+            <div className="flex flex-col bg-[#ADD8E6] h-full items-center justify-center">
                 <Loader className="size-5  animate-spin text-white" />
             </div>
         );
@@ -36,7 +36,7 @@ export const WorkspaceSidebar = () => {
 
     if (!workspace || !member) {
         return (
-            <div className="flex flex-col gap-y-2 bg-[#808080] h-full items-center justify-center">
+            <div className="flex flex-col gap-y-2 bg-[#ADD8E6] h-full items-center justify-center">
                 <AlertTriangle className="size-5 text-white" />
                 <p className="text-white text-sm">
                     Workspace not found
@@ -47,7 +47,7 @@ export const WorkspaceSidebar = () => {
 
     return (
         <div>
-            <div className="flex flex-col bg-[#808080] h-full">
+            <div className="flex flex-col bg-[#ADD8E6] h-full">
                 <WorkspaceHeader workspace={workspace} isAdmin={member.role === "admin"} />
 
                 <div className="flex flex-col px-2 mt-3">

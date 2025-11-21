@@ -43,7 +43,7 @@ export const Toolbar = () => {
     };
 
     return (
-        <nav className="bg-[#481349] flex item-center justify-between h-10 p-1.5">
+        <nav className="bg-[#1E90FF] flex item-center justify-between h-10 p-1.5">
             <div className="flex-1"></div>
             <div className="min-w-[280px] max-w-[642px] grow-[2] shrink">
                 <Button onClick={() => setOpen(true)} size="sm" className="bg-accent/25 hover:bg-accent-25 w-full justify-start h-7 px-2">
